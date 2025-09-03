@@ -1,5 +1,5 @@
-#include <stdio.h>;
-#include <stdlib.h>;
+#include <stdio.h>
+#include <stdlib.h>
 // Estrutura do nó da lista
 typedef struct Node {
     int dado;
