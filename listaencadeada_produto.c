@@ -22,7 +22,7 @@ produto* criarLista(char nomeP[15], int estoqueP){
 
 void insereInicio(produto **lista, char nomeP[15], int estoqueP){
     produto *novoprod = criarLista(nomeP, estoqueP);
-    novoprod->prox = NULL;
+    novoprod->prox = *lista;
     *lista = novoprod;
 }// fim do inserir no inicio
 
